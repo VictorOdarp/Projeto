@@ -8,10 +8,14 @@ var connectionStr = "server=localhost;userid=root;password=895smigol;database=ba
 builder.Services.AddDbContext<SalesWebMVCContext>(options =>
     options.UseMySql(connectionStr, ServerVersion.AutoDetect(connectionStr)));
 
+builder.Services.AddScoped<SeedingService>();
+
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
+
+app.Services.CreateScope().ServiceProvider.GetRequiredService<SeedingService>().Seed();
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
