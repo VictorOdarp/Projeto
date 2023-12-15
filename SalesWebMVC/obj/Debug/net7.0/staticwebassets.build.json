@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "vsE1apm+nAd4/F2ytUcZROP9sexWONB3CmLY0ppHTUU=",
+  "Hash": "GQQGKrU0uGWME39vtxQF/Zh5Nx3JOL5YQf5oo9/2LfA=",
   "Source": "SalesWebMVC",
   "BasePath": "_content/SalesWebMVC",
   "Mode": "Default",
@@ -372,23 +372,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
-    },
-    {
-      "Identity": "C:\\Users\\Victo\\Desktop\\ASP.NET CORE CURSO\\SalesWebMVC\\SalesWebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-quartz.css",
-      "SourceId": "SalesWebMVC",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Victo\\Desktop\\ASP.NET CORE CURSO\\SalesWebMVC\\SalesWebMVC\\wwwroot\\",
-      "BasePath": "_content/SalesWebMVC",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-quartz.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-quartz.css"
     },
     {
       "Identity": "C:\\Users\\Victo\\Desktop\\ASP.NET CORE CURSO\\SalesWebMVC\\SalesWebMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
